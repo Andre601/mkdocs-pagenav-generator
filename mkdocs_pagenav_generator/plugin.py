@@ -2,7 +2,7 @@ from mkdocs.plugins import BasePlugin
 from mkdocs.utils import normalize_url
 
 
-class InlineNavigationPlugin(BasePlugin):
+class NavGeneratorPlugin(BasePlugin):
 
     def on_nav(self, nav, config, files):
         self.nav = nav
