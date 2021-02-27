@@ -20,6 +20,7 @@ setup(
         'wcmatch>=7',
         'mkdocs-awesome-pages-plugin>=2.5.0'
     ],
+    packages=find_packages(exclude=['*.tests', '*.tests.*']),
     entry_points={
         'mkdocs.plugins': [
             'pagenav-generator = mkdocs_pagenav_generator.plugin:NavGeneratorPlugin'
