@@ -47,7 +47,8 @@ docs/
 │  └ img/ # Some images
 │     └ ...
 └ posts/
-   ├ index.md # Content shown below
+   ├ .pages.yml # Page navigation of awesome-pages
+   ├ index.md   # This is the page with the {nav}
    ├ post1.md
    ├ post2.md
    └ archive/
@@ -59,7 +60,7 @@ The above would now result in `{nav}` being turned into a list equivalent to hav
 - [Post1](post1.md)
 - [Post2](post2.md)
 - Archive
-  - [Post3](post3.md)
+  - [Post3](archive/post3.md)
 ```
 
 ## Notes
