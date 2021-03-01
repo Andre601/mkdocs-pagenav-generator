@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='mkdocs-pagenav-generator',
-    version='1.0.0',
+    version='1.0.1',
     description='Generates a navigation for pages within same subdirectory for the page itself.',
     long_description='mkdocs-pagenav-generator is a very simplistic plugin, which allows you to generate a navigation '
                      'inside a page which will list all other pages within the same directory and any subdirectory of '
