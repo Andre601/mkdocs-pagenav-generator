@@ -17,6 +17,13 @@ Note that this plugin depends on the Awesome-pages plugin, which you need to ins
 pip install mkdocs-awesome-pages-plugin
 ```
 
+After you've finished the installation will you need to add it as a plugin to your `mkdocs.yml`  
+```yaml
+plugins:
+  - awesome-pages # Required
+  - pagenav-generator
+```
+
 ## Usage
 In order to use this plugin in your documentation, simply setup a `.pages.yml` file in any subdirectory you like.
 
