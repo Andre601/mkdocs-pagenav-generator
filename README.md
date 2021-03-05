@@ -33,8 +33,8 @@ In our example do we have the following folder structure:
 docs/
  ├ index.md
  ├ assets/
- │  └ images/ # Some CSS assets
- │     └ cat.jpeg
+ │  └ images/ # Just some images
+ │     └ cat.jpeg # Cute cats :3
  └ posts/
     ├ .pages.yml # Page navigation of awesome-pages
     ├ index.md   # This is the page with the {nav} placeholder
