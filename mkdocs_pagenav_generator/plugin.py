@@ -10,7 +10,7 @@ class NavGeneratorPlugin(BasePlugin):
     def on_post_page(self, output, page, config):
         if '{nav}' in output:
             children = page.parent.children if page.parent else self.nav.items
-            siblings = [child for child in children if child != page]
+            siblings = [child for child in children if child is not page]
             return output.replace('{nav}', self._format_links(siblings, page, config))
 
     def _format_links(self, items, page, config):
