@@ -83,5 +83,5 @@ With the aforementioned folder structure would the placeholder now be replaced w
 This plugin was **not** created by me. I do **not** claim to have copyright or ownership in any way for this plugin.  
 This plugin was created by lukasgeiter and is shared with his permission.
 
-This software is provided AS IS without any warranty or liability. I take zero responsability for any damage this plugin may cause towards your documentation.  
-Do not contact me or lukasgeiter about issues regarding this plugin.
+Since I know absolutely nothing about Python do I not maintain nor update this plugin. The software is provided "as is" without warranty or liability.
+Do not contact me or lukasgeiter for help with this plugin.
